@@ -1,0 +1,5 @@
+Saving BillsBill breakdown:
+Rice:                     ...$90
+Veges:                    ...$150
+tip:                      ...$20
+total:                    ...$260.00
