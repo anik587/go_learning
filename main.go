@@ -51,7 +51,7 @@ func getUserChoice(input string) int {
 func main() {
 
 	prompt := []string{"Menu:", "1. Number", "2. Print", "3. Array", "4. String", "5. Loop", "6. Condition",
-		"7. Referance function", "8. Return multiple function", "9. Package Scope", "10. Map", "11. Pass By Value", "12. Pointer", "13. Struct", "14. Receiver Function", "15. Receiver Pointers", "16. Save Files", "17. Interface", "18. Type Assertions", "19. Type Switch", "20. Goroutine", "21. defer function", "22. Waiting Group", "23. Mutex", "24. Race Condition", "25. Channel & Deadlock", "26. Math Rand", "27. Generate CSV", "30. Exit", "Please enter your choice (number like 12): "}
+		"7. Referance function", "8. Return multiple function", "9. Package Scope", "10. Map", "11. Pass By Value", "12. Pointer", "13. Struct", "14. Receiver Function", "15. Receiver Pointers", "16. Save Files", "17. Interface", "18. Type Assertions", "19. Type Switch", "20. Goroutine", "21. defer function", "22. Waiting Group", "23. Mutex", "24. Race Condition", "25. Channel & Deadlock", "26. Math Rand", "27. Generate CSV", "28. UploadGCP", "30. Exit", "Please enter your choice (number like 12): "}
 
 	for _, v := range prompt {
 		printPromt(v)
@@ -203,6 +203,9 @@ func main() {
 	case 27:
 		//27. Generate CSV
 		utils.GenerateCSV()
+	case 28:
+		//27. Generate CSV
+		utils.UploadGCP()
 	case 30:
 
 		fmt.Println("Exiting...")
